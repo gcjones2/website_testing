@@ -20,11 +20,11 @@ th {
   padding: 10px;
 }
 .primary{
-  background-color: #6c6a99
+  background-color: #ffffff
 }
 
 tbody:nth-child(odd) {
-  background: #CCC;
+  background: #b5b5b5;
 }
 
 tfoot > tr  {
@@ -34,7 +34,7 @@ tfoot > tr  {
 
 tbody:hover td[rowspan],
 tr:hover td {
-  background: #2c8fdb;
+  background: #5cb8ff;
 }
 
 
