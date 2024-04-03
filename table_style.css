@@ -27,8 +27,8 @@ tbody:nth-child(odd) {
 }
 
 tfoot > tr  {
-  background: black;
-  color: white;
+  background: #5e3469;
+  color: #ffffff;
 }
 
 tbody:hover td[rowspan],
