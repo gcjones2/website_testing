@@ -7,7 +7,7 @@ table {
   background-color: #f6f6f6;
 }/* Spacing */
 td, th {
-  border: 1px solid #999;
+  border: 1px solid black;
   padding: 20px;
 }
 th {
@@ -27,8 +27,8 @@ tbody:nth-child(odd) {
 }
 
 tfoot > tr  {
-  background: #5e3469;
-  color: #ffffff;
+  background: white;
+  color: black;
 }
 
 tbody:hover td[rowspan],
