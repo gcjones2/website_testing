@@ -5,6 +5,7 @@ table {
   position: relative;
   border-collapse: collapse; 
   background-color: #f6f6f6;
+  text-shadow: nine;
 }/* Spacing */
 td, th {
   border: 1px solid black;
