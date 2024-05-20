@@ -23,6 +23,10 @@ th {
   background-color: #ffffff
 }
 
+tr td {
+    color: #000000;
+}
+
 tbody:nth-child(odd) {
   background: #b5b5b5;
 }
