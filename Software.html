@@ -55,8 +55,13 @@
 
 											<p>
 												<strong> Improvements to the data reduction of JWST/NIRSpec IFS data </strong> <br>
-												Short description, Michele?<br>
-												<a href="https://ui.adsabs.harvard.edu/abs/2023A%26A...679A..89P/abstract" target="_blank">Perna et al. 2023</a>
+												We developped a few improvements with respect to the standard JWST data-reduction pipeline. 
+												The additional steps and corrections in the pipeline code  to improve the quality of the data
+												reduction are described in  Section 3 in 
+												<a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...679A..89P/abstract" target="_blank">Perna et al. (2023)</a>
+												and Section 1.1 in <a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2023arXiv230806317D/abstract" target="_blank">D'Eugenio et al. (2023a)</a>. <br>
+												
+										
 											</p>
 
 											<p>
@@ -67,8 +72,17 @@
 
 											<p>
 												<strong> Software for the removal of wiggles in JWST/NIRSpec data (M. Perna) </strong> <br>
-												Short description, Michele?<br>
-												<a href="https://github.com/micheleperna/JWST-NIRSpec_wiggles" target="_blank">link to github</a>									
+												The spatial undersampling in the NIRSpec IFS may result in apparent wiggles in the single-spaxel 
+												spectra close to the position of bright point sources, such as stars and QSOs. There is currently
+												no correction in the pipeline for these artefacts; large spatial extraction regions are hence required
+												to reduce the amplitude of the effect in extracted 1-D spectra 
+												(see <a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...679A..89P/abstract" target="_blank">Perna et al. 2023</a>; 
+												<a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2023AJ....166...45L/abstract" target="_blank">Law et al. 2023</a>). 
+												There are situations where a point source overlaps with extended emission, thus requiring to disentangle
+												the flux from both sources, for instance,  in studies of QSO hosts and their close environment. <br>
+												We developped a code that allows to subtract the spurious wiggles at single-spaxel level. The code is written
+												in python and it is publicly available on github. <br>
+												<a style="color: teal" href="https://github.com/micheleperna/JWST-NIRSpec_wiggles" target="_blank">Link to github</a>										
 											</p>										
 											<p>
 												<strong> QubeSpec: A powerful python package for JWST/NIRSpec IFU data analysis (J. Scholtz) </strong> <br>
