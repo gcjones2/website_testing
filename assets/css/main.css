@@ -1971,6 +1971,7 @@ input, select, textarea {
 		#footer ul.divided li, #footer ul.menu li {
 			border-color: #444;
 			border-color: rgba(255, 255, 255, 0.075);
+			color: #000000;
 		}
 
 		#footer ul.divided li a {
@@ -1979,6 +1980,7 @@ input, select, textarea {
 
 		#footer ul.menu {
 			margin: 0;
+			color: #000000;
 		}
 
 		#footer dl.contact dt {
